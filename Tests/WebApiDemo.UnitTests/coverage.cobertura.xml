@@ -1,0 +1,1381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.7295999999999999" branch-rate="0.9153" version="1.9" timestamp="1631893419" lines-covered="251" lines-valid="344" branches-covered="119" branches-valid="130">
+  <sources>
+    <source>C:\aspnet\WebApiDemo\</source>
+  </sources>
+  <packages>
+    <package name="WebApiDemo.Api" line-rate="0.6507" branch-rate="0.8571" complexity="15">
+      <classes>
+        <class name="WebApiDemo.Api.Controllers.v1.MovieController" filename="WebApiDemo.Api\Controllers\v1\MovieController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(WebApiDemo.Service.Movie.IMovieService,Serilog.ILogger,AutoMapper.IMapper)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="7" branch="False" />
+                <line number="24" hits="7" branch="False" />
+                <line number="25" hits="7" branch="False" />
+                <line number="26" hits="7" branch="False" />
+                <line number="27" hits="7" branch="False" />
+                <line number="28" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="7" branch="False" />
+            <line number="24" hits="7" branch="False" />
+            <line number="25" hits="7" branch="False" />
+            <line number="26" hits="7" branch="False" />
+            <line number="27" hits="7" branch="False" />
+            <line number="28" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Api.Controllers.v1.MovieController/&lt;GetAllMovies&gt;d__4" filename="WebApiDemo.Api\Controllers\v1\MovieController.cs" line-rate="0.6153" branch-rate="1" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.6153" branch-rate="1" complexity="4">
+              <lines>
+                <line number="32" hits="2" branch="False" />
+                <line number="34" hits="2" branch="False" />
+                <line number="35" hits="2" branch="False" />
+                <line number="37" hits="2" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="166" type="jump" coverage="100%" />
+                    <condition number="189" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="50" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="2" branch="False" />
+            <line number="34" hits="2" branch="False" />
+            <line number="35" hits="2" branch="False" />
+            <line number="37" hits="2" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="166" type="jump" coverage="100%" />
+                <condition number="189" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="50" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Api.Controllers.v1.MovieController/&lt;AddMovie&gt;d__5" filename="WebApiDemo.Api\Controllers\v1\MovieController.cs" line-rate="0.5384" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.5384" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="54" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="59" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="189" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="72" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="54" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="59" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="189" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="72" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Api.Controllers.v1.MovieController/&lt;UpdateMovie&gt;d__6" filename="WebApiDemo.Api\Controllers\v1\MovieController.cs" line-rate="0.5384" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.5384" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="76" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="81" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="189" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+                <line number="94" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="76" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="81" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="189" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+            <line number="94" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Api.Controllers.v1.MovieController/&lt;Search&gt;d__7" filename="WebApiDemo.Api\Controllers\v1\MovieController.cs" line-rate="0.7222" branch-rate="1" complexity="6">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.7222" branch-rate="1" complexity="6">
+              <lines>
+                <line number="98" hits="3" branch="False" />
+                <line number="100" hits="3" branch="False" />
+                <line number="101" hits="3" branch="False" />
+                <line number="102" hits="3" branch="False" />
+                <line number="104" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="210" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="105" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="109" hits="2" branch="False" />
+                <line number="110" hits="2" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="257" type="jump" coverage="100%" />
+                    <condition number="285" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+                <line number="115" hits="1" branch="False" />
+                <line number="118" hits="0" branch="False" />
+                <line number="119" hits="0" branch="False" />
+                <line number="120" hits="0" branch="False" />
+                <line number="121" hits="0" branch="False" />
+                <line number="122" hits="0" branch="False" />
+                <line number="124" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="98" hits="3" branch="False" />
+            <line number="100" hits="3" branch="False" />
+            <line number="101" hits="3" branch="False" />
+            <line number="102" hits="3" branch="False" />
+            <line number="104" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="210" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="105" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="109" hits="2" branch="False" />
+            <line number="110" hits="2" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="257" type="jump" coverage="100%" />
+                <condition number="285" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="115" hits="1" branch="False" />
+            <line number="118" hits="0" branch="False" />
+            <line number="119" hits="0" branch="False" />
+            <line number="120" hits="0" branch="False" />
+            <line number="121" hits="0" branch="False" />
+            <line number="122" hits="0" branch="False" />
+            <line number="124" hits="3" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="WebApiDemo.Data" line-rate="1" branch-rate="1" complexity="0">
+      <classes />
+    </package>
+    <package name="WebApiDemo.Domain" line-rate="0.7875" branch-rate="0.9224" complexity="150">
+      <classes>
+        <class name="WebApiDemo.Domain.Validators.UpdateMovieRequestMovieValidator" filename="WebApiDemo.Domain\Validators\MovieValidator.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Search.SearchOption" filename="WebApiDemo.Domain\Search\SearchOption.cs" line-rate="0.9347" branch-rate="1" complexity="61">
+          <methods>
+            <method name="get_MovieId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="47" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MovieIdInt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="20" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Title" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="14" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Genre" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Classification" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MinReleaseDate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="51" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MinReleaseDateInt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="19" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxReleaseDate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="48" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxReleaseDateInt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="19" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MinRating" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="53" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MinRatingInt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="19" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxRating" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="49" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxRatingInt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="19" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Cast" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Valid" signature="()" line-rate="0.8332999999999999" branch-rate="1" complexity="40">
+              <lines>
+                <line number="39" hits="7" branch="False" />
+                <line number="41" hits="7" branch="False" />
+                <line number="42" hits="7" branch="True" condition-coverage="100% (40/40)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="100%" />
+                    <condition number="22" type="jump" coverage="100%" />
+                    <condition number="38" type="jump" coverage="100%" />
+                    <condition number="47" type="jump" coverage="100%" />
+                    <condition number="63" type="jump" coverage="100%" />
+                    <condition number="72" type="jump" coverage="100%" />
+                    <condition number="88" type="jump" coverage="100%" />
+                    <condition number="101" type="jump" coverage="100%" />
+                    <condition number="115" type="jump" coverage="100%" />
+                    <condition number="131" type="jump" coverage="100%" />
+                    <condition number="140" type="jump" coverage="100%" />
+                    <condition number="156" type="jump" coverage="100%" />
+                    <condition number="165" type="jump" coverage="100%" />
+                    <condition number="178" type="jump" coverage="100%" />
+                    <condition number="191" type="jump" coverage="100%" />
+                    <condition number="205" type="jump" coverage="100%" />
+                    <condition number="218" type="jump" coverage="100%" />
+                    <condition number="237" type="jump" coverage="100%" />
+                    <condition number="250" type="jump" coverage="100%" />
+                    <condition number="280" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="43" hits="7" branch="False" />
+                <line number="44" hits="7" branch="False" />
+                <line number="45" hits="7" branch="False" />
+                <line number="46" hits="7" branch="False" />
+                <line number="47" hits="7" branch="False" />
+                <line number="48" hits="7" branch="False" />
+                <line number="49" hits="7" branch="False" />
+                <line number="50" hits="7" branch="False" />
+                <line number="51" hits="4" branch="False" />
+                <line number="52" hits="4" branch="False" />
+                <line number="55" hits="3" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="61" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="TryParseStringToInt" signature="(System.String)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="65" hits="96" branch="False" />
+                <line number="66" hits="96" branch="False" />
+                <line number="67" hits="96" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="18" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="68" hits="86" branch="False" />
+                <line number="69" hits="86" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="31" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="81" branch="False" />
+                <line number="71" hits="81" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="43" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="72" hits="11" branch="False" />
+                <line number="73" hits="11" branch="False" />
+                <line number="76" hits="70" branch="False" />
+                <line number="79" hits="5" branch="False" />
+                <line number="82" hits="10" branch="False" />
+                <line number="83" hits="96" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="85" hits="18" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="47" branch="False" />
+            <line number="10" hits="20" branch="False" />
+            <line number="12" hits="14" branch="False" />
+            <line number="14" hits="12" branch="False" />
+            <line number="16" hits="12" branch="False" />
+            <line number="18" hits="51" branch="False" />
+            <line number="20" hits="19" branch="False" />
+            <line number="22" hits="48" branch="False" />
+            <line number="24" hits="19" branch="False" />
+            <line number="26" hits="53" branch="False" />
+            <line number="28" hits="19" branch="False" />
+            <line number="30" hits="49" branch="False" />
+            <line number="32" hits="19" branch="False" />
+            <line number="34" hits="12" branch="False" />
+            <line number="39" hits="7" branch="False" />
+            <line number="41" hits="7" branch="False" />
+            <line number="42" hits="7" branch="True" condition-coverage="100% (40/40)">
+              <conditions>
+                <condition number="13" type="jump" coverage="100%" />
+                <condition number="22" type="jump" coverage="100%" />
+                <condition number="38" type="jump" coverage="100%" />
+                <condition number="47" type="jump" coverage="100%" />
+                <condition number="63" type="jump" coverage="100%" />
+                <condition number="72" type="jump" coverage="100%" />
+                <condition number="88" type="jump" coverage="100%" />
+                <condition number="101" type="jump" coverage="100%" />
+                <condition number="115" type="jump" coverage="100%" />
+                <condition number="131" type="jump" coverage="100%" />
+                <condition number="140" type="jump" coverage="100%" />
+                <condition number="156" type="jump" coverage="100%" />
+                <condition number="165" type="jump" coverage="100%" />
+                <condition number="178" type="jump" coverage="100%" />
+                <condition number="191" type="jump" coverage="100%" />
+                <condition number="205" type="jump" coverage="100%" />
+                <condition number="218" type="jump" coverage="100%" />
+                <condition number="237" type="jump" coverage="100%" />
+                <condition number="250" type="jump" coverage="100%" />
+                <condition number="280" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="43" hits="7" branch="False" />
+            <line number="44" hits="7" branch="False" />
+            <line number="45" hits="7" branch="False" />
+            <line number="46" hits="7" branch="False" />
+            <line number="47" hits="7" branch="False" />
+            <line number="48" hits="7" branch="False" />
+            <line number="49" hits="7" branch="False" />
+            <line number="50" hits="7" branch="False" />
+            <line number="51" hits="4" branch="False" />
+            <line number="52" hits="4" branch="False" />
+            <line number="55" hits="3" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="61" hits="7" branch="False" />
+            <line number="65" hits="96" branch="False" />
+            <line number="66" hits="96" branch="False" />
+            <line number="67" hits="96" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="18" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="68" hits="86" branch="False" />
+            <line number="69" hits="86" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="31" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="70" hits="81" branch="False" />
+            <line number="71" hits="81" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="43" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="72" hits="11" branch="False" />
+            <line number="73" hits="11" branch="False" />
+            <line number="76" hits="70" branch="False" />
+            <line number="79" hits="5" branch="False" />
+            <line number="82" hits="10" branch="False" />
+            <line number="83" hits="96" branch="False" />
+            <line number="85" hits="18" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Repositories.MovieRepository" filename="WebApiDemo.Domain\Repositories\MovieRepository.cs" line-rate="0.92" branch-rate="0.8887999999999999" complexity="20">
+          <methods>
+            <method name="GetSortedList" signature="(System.Collections.Generic.List`1&lt;WebApiDemo.Domain.Models.Movie&gt;,System.String)" line-rate="0.8125" branch-rate="0.875" complexity="16">
+              <lines>
+                <line number="178" hits="9" branch="False" />
+                <line number="179" hits="9" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="180" hits="0" branch="False" />
+                <line number="181" hits="0" branch="False" />
+                <line number="184" hits="9" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="25" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="185" hits="3" branch="False" />
+                <line number="186" hits="7" branch="False" />
+                <line number="189" hits="6" branch="True" condition-coverage="91.66% (11/12)">
+                  <conditions>
+                    <condition number="98" type="jump" coverage="100%" />
+                    <condition number="111" type="jump" coverage="100%" />
+                    <condition number="124" type="jump" coverage="100%" />
+                    <condition number="140" type="jump" coverage="100%" />
+                    <condition number="156" type="jump" coverage="100%" />
+                    <condition number="172" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="192" hits="4" branch="False" />
+                <line number="194" hits="4" branch="False" />
+                <line number="196" hits="4" branch="False" />
+                <line number="198" hits="4" branch="False" />
+                <line number="200" hits="4" branch="False" />
+                <line number="202" hits="4" branch="False" />
+                <line number="204" hits="0" branch="False" />
+                <line number="206" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="TryGetAllFromCache" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="209" hits="9" branch="False" />
+                <line number="210" hits="9" branch="False" />
+                <line number="212" hits="9" branch="False" />
+                <line number="214" hits="9" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="31" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="215" hits="9" branch="False" />
+                <line number="216" hits="9" branch="False" />
+                <line number="217" hits="9" branch="False" />
+                <line number="218" hits="9" branch="False" />
+                <line number="219" hits="9" branch="False" />
+                <line number="220" hits="9" branch="False" />
+                <line number="222" hits="9" branch="False" />
+                <line number="223" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="GetCacheExpirationSeconds" signature="()" line-rate="0.909" branch-rate="1" complexity="1">
+              <lines>
+                <line number="226" hits="9" branch="False" />
+                <line number="228" hits="9" branch="False" />
+                <line number="229" hits="9" branch="False" />
+                <line number="230" hits="9" branch="False" />
+                <line number="231" hits="9" branch="False" />
+                <line number="232" hits="9" branch="False" />
+                <line number="234" hits="0" branch="False" />
+                <line number="236" hits="9" branch="False" />
+                <line number="237" hits="9" branch="False" />
+                <line number="238" hits="9" branch="False" />
+                <line number="240" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(WebApiDemo.Data.IMovieDataSource,AutoMapper.IMapper,Serilog.ILogger,WebApiDemo.Domain.Cache.IDistributedCacheProvider,Microsoft.Extensions.Configuration.IConfiguration)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="16" branch="False" />
+                <line number="26" hits="16" branch="False" />
+                <line number="27" hits="16" branch="False" />
+                <line number="28" hits="16" branch="False" />
+                <line number="29" hits="16" branch="False" />
+                <line number="30" hits="16" branch="False" />
+                <line number="31" hits="16" branch="False" />
+                <line number="32" hits="16" branch="False" />
+                <line number="33" hits="16" branch="False" />
+                <line number="34" hits="16" branch="False" />
+                <line number="35" hits="16" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="178" hits="9" branch="False" />
+            <line number="179" hits="9" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="180" hits="0" branch="False" />
+            <line number="181" hits="0" branch="False" />
+            <line number="184" hits="9" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="25" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="185" hits="3" branch="False" />
+            <line number="186" hits="7" branch="False" />
+            <line number="189" hits="6" branch="True" condition-coverage="91.66% (11/12)">
+              <conditions>
+                <condition number="98" type="jump" coverage="100%" />
+                <condition number="111" type="jump" coverage="100%" />
+                <condition number="124" type="jump" coverage="100%" />
+                <condition number="140" type="jump" coverage="100%" />
+                <condition number="156" type="jump" coverage="100%" />
+                <condition number="172" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="192" hits="4" branch="False" />
+            <line number="194" hits="4" branch="False" />
+            <line number="196" hits="4" branch="False" />
+            <line number="198" hits="4" branch="False" />
+            <line number="200" hits="4" branch="False" />
+            <line number="202" hits="4" branch="False" />
+            <line number="204" hits="0" branch="False" />
+            <line number="206" hits="9" branch="False" />
+            <line number="209" hits="9" branch="False" />
+            <line number="210" hits="9" branch="False" />
+            <line number="212" hits="9" branch="False" />
+            <line number="214" hits="9" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="31" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="215" hits="9" branch="False" />
+            <line number="216" hits="9" branch="False" />
+            <line number="217" hits="9" branch="False" />
+            <line number="218" hits="9" branch="False" />
+            <line number="219" hits="9" branch="False" />
+            <line number="220" hits="9" branch="False" />
+            <line number="222" hits="9" branch="False" />
+            <line number="223" hits="9" branch="False" />
+            <line number="226" hits="9" branch="False" />
+            <line number="228" hits="9" branch="False" />
+            <line number="229" hits="9" branch="False" />
+            <line number="230" hits="9" branch="False" />
+            <line number="231" hits="9" branch="False" />
+            <line number="232" hits="9" branch="False" />
+            <line number="234" hits="0" branch="False" />
+            <line number="236" hits="9" branch="False" />
+            <line number="237" hits="9" branch="False" />
+            <line number="238" hits="9" branch="False" />
+            <line number="240" hits="9" branch="False" />
+            <line number="25" hits="16" branch="False" />
+            <line number="26" hits="16" branch="False" />
+            <line number="27" hits="16" branch="False" />
+            <line number="28" hits="16" branch="False" />
+            <line number="29" hits="16" branch="False" />
+            <line number="30" hits="16" branch="False" />
+            <line number="31" hits="16" branch="False" />
+            <line number="32" hits="16" branch="False" />
+            <line number="33" hits="16" branch="False" />
+            <line number="34" hits="16" branch="False" />
+            <line number="35" hits="16" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Repositories.MovieRepository/&lt;GetAll&gt;d__8" filename="WebApiDemo.Domain\Repositories\MovieRepository.cs" line-rate="0.5" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.5" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="7" branch="False" />
+                <line number="40" hits="7" branch="False" />
+                <line number="41" hits="7" branch="False" />
+                <line number="42" hits="7" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="50" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="7" branch="False" />
+            <line number="40" hits="7" branch="False" />
+            <line number="41" hits="7" branch="False" />
+            <line number="42" hits="7" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="50" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Repositories.MovieRepository/&lt;GetByKey&gt;d__9" filename="WebApiDemo.Domain\Repositories\MovieRepository.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="53" hits="4" branch="False" />
+                <line number="55" hits="4" branch="False" />
+                <line number="56" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="23" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="63" hits="3" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="71" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="53" hits="4" branch="False" />
+            <line number="55" hits="4" branch="False" />
+            <line number="56" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="23" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="63" hits="3" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="71" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Repositories.MovieRepository/&lt;&gt;c__DisplayClass10_0" filename="WebApiDemo.Domain\Repositories\MovieRepository.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="&lt;Search&gt;b__0" signature="(WebApiDemo.Domain.Models.Movie)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="92" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;Search&gt;b__1" signature="(WebApiDemo.Domain.Models.Movie)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="95" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;Search&gt;b__2" signature="(WebApiDemo.Domain.Models.Movie)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="98" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;Search&gt;b__3" signature="(WebApiDemo.Domain.Models.Movie)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="101" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;Search&gt;b__4" signature="(WebApiDemo.Domain.Models.Movie)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="104" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;Search&gt;b__5" signature="(WebApiDemo.Domain.Models.Movie)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="107" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;Search&gt;b__6" signature="(WebApiDemo.Domain.Models.Movie)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="110" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;Search&gt;b__7" signature="(WebApiDemo.Domain.Models.Movie)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="113" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;Search&gt;b__8" signature="(WebApiDemo.Domain.Models.Movie)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="116" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="92" hits="5" branch="False" />
+            <line number="95" hits="3" branch="False" />
+            <line number="98" hits="3" branch="False" />
+            <line number="101" hits="3" branch="False" />
+            <line number="104" hits="3" branch="False" />
+            <line number="107" hits="3" branch="False" />
+            <line number="110" hits="3" branch="False" />
+            <line number="113" hits="3" branch="False" />
+            <line number="116" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Repositories.MovieRepository/&lt;Search&gt;d__10" filename="WebApiDemo.Domain\Repositories\MovieRepository.cs" line-rate="0.8" branch-rate="0.9375" complexity="32">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8" branch-rate="0.9375" complexity="32">
+              <lines>
+                <line number="74" hits="3" branch="False" />
+                <line number="76" hits="3" branch="False" />
+                <line number="77" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="58" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="78" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+                <line number="87" hits="2" branch="False" />
+                <line number="89" hits="2" branch="False" />
+                <line number="91" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="162" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="94" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="232" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="97" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="302" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="100" hits="2" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="372" type="jump" coverage="100%" />
+                    <condition number="391" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="103" hits="2" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="461" type="jump" coverage="100%" />
+                    <condition number="480" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="106" hits="2" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="550" type="jump" coverage="100%" />
+                    <condition number="569" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="109" hits="2" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="639" type="jump" coverage="100%" />
+                    <condition number="658" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="112" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="728" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="115" hits="2" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="798" type="jump" coverage="50%" />
+                    <condition number="817" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="119" hits="2" branch="False" />
+                <line number="121" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="905" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="123" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+                <line number="125" hits="0" branch="False" />
+                <line number="126" hits="0" branch="False" />
+                <line number="127" hits="0" branch="False" />
+                <line number="129" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="74" hits="3" branch="False" />
+            <line number="76" hits="3" branch="False" />
+            <line number="77" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="58" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="78" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="87" hits="2" branch="False" />
+            <line number="89" hits="2" branch="False" />
+            <line number="91" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="162" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="94" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="232" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="97" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="302" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="100" hits="2" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="372" type="jump" coverage="100%" />
+                <condition number="391" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="103" hits="2" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="461" type="jump" coverage="100%" />
+                <condition number="480" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="106" hits="2" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="550" type="jump" coverage="100%" />
+                <condition number="569" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="109" hits="2" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="639" type="jump" coverage="100%" />
+                <condition number="658" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="112" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="728" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="115" hits="2" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="798" type="jump" coverage="50%" />
+                <condition number="817" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="119" hits="2" branch="False" />
+            <line number="121" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="905" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="123" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="125" hits="0" branch="False" />
+            <line number="126" hits="0" branch="False" />
+            <line number="127" hits="0" branch="False" />
+            <line number="129" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Repositories.MovieRepository/&lt;Add&gt;d__11" filename="WebApiDemo.Domain\Repositories\MovieRepository.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="132" hits="2" branch="False" />
+                <line number="134" hits="2" branch="False" />
+                <line number="135" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="136" hits="1" branch="False" />
+                <line number="137" hits="1" branch="False" />
+                <line number="138" hits="1" branch="False" />
+                <line number="139" hits="1" branch="False" />
+                <line number="142" hits="1" branch="False" />
+                <line number="143" hits="1" branch="False" />
+                <line number="144" hits="1" branch="False" />
+                <line number="146" hits="1" branch="False" />
+                <line number="147" hits="1" branch="False" />
+                <line number="148" hits="1" branch="False" />
+                <line number="149" hits="1" branch="False" />
+                <line number="150" hits="1" branch="False" />
+                <line number="152" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="132" hits="2" branch="False" />
+            <line number="134" hits="2" branch="False" />
+            <line number="135" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="136" hits="1" branch="False" />
+            <line number="137" hits="1" branch="False" />
+            <line number="138" hits="1" branch="False" />
+            <line number="139" hits="1" branch="False" />
+            <line number="142" hits="1" branch="False" />
+            <line number="143" hits="1" branch="False" />
+            <line number="144" hits="1" branch="False" />
+            <line number="146" hits="1" branch="False" />
+            <line number="147" hits="1" branch="False" />
+            <line number="148" hits="1" branch="False" />
+            <line number="149" hits="1" branch="False" />
+            <line number="150" hits="1" branch="False" />
+            <line number="152" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Repositories.MovieRepository/&lt;Update&gt;d__12" filename="WebApiDemo.Domain\Repositories\MovieRepository.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="155" hits="3" branch="False" />
+                <line number="157" hits="3" branch="False" />
+                <line number="158" hits="3" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="100%" />
+                    <condition number="57" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="159" hits="2" branch="False" />
+                <line number="160" hits="2" branch="False" />
+                <line number="161" hits="2" branch="False" />
+                <line number="162" hits="2" branch="False" />
+                <line number="165" hits="1" branch="False" />
+                <line number="166" hits="1" branch="False" />
+                <line number="167" hits="1" branch="False" />
+                <line number="169" hits="2" branch="False" />
+                <line number="170" hits="2" branch="False" />
+                <line number="171" hits="2" branch="False" />
+                <line number="172" hits="2" branch="False" />
+                <line number="173" hits="2" branch="False" />
+                <line number="175" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="155" hits="3" branch="False" />
+            <line number="157" hits="3" branch="False" />
+            <line number="158" hits="3" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="33" type="jump" coverage="100%" />
+                <condition number="57" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="159" hits="2" branch="False" />
+            <line number="160" hits="2" branch="False" />
+            <line number="161" hits="2" branch="False" />
+            <line number="162" hits="2" branch="False" />
+            <line number="165" hits="1" branch="False" />
+            <line number="166" hits="1" branch="False" />
+            <line number="167" hits="1" branch="False" />
+            <line number="169" hits="2" branch="False" />
+            <line number="170" hits="2" branch="False" />
+            <line number="171" hits="2" branch="False" />
+            <line number="172" hits="2" branch="False" />
+            <line number="173" hits="2" branch="False" />
+            <line number="175" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Repositories.RepositoryBase`2" filename="WebApiDemo.Domain\Repositories\RepositoryBase.cs" line-rate="0" branch-rate="1" complexity="5">
+          <methods>
+            <method name="GetAll" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetByKey" signature="(TKey)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Search" signature="(WebApiDemo.Domain.Search.SearchOption,System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Add" signature="(TEntity)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Update" signature="(TEntity)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Cache.DistributedCacheProvider" filename="WebApiDemo.Domain\Cache\DistributedCacheProvider.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Microsoft.Extensions.Caching.Distributed.IDistributedCache)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="2" branch="False" />
+                <line number="13" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+                <line number="15" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="2" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+            <line number="15" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Cache.DistributedCacheProvider/&lt;GetFromCache&gt;d__2`1" filename="WebApiDemo.Domain\Cache\DistributedCacheProvider.cs" line-rate="0.75" branch-rate="0.5" complexity="8">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.75" branch-rate="0.5" complexity="8">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="28" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="26" hits="1" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="197" type="jump" coverage="50%" />
+                    <condition number="216" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="30" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="252" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="31" hits="1" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="28" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="26" hits="1" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="197" type="jump" coverage="50%" />
+                <condition number="216" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="30" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="252" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="31" hits="1" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Domain.Cache.DistributedCacheProvider/&lt;SetCache&gt;d__3`1" filename="WebApiDemo.Domain\Cache\DistributedCacheProvider.cs" line-rate="1" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="29" type="jump" coverage="50%" />
+                    <condition number="50" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="29" type="jump" coverage="50%" />
+                <condition number="50" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="WebApiDemo.Service" line-rate="0.5121" branch-rate="1" complexity="5">
+      <classes>
+        <class name="WebApiDemo.Service.Movie.MovieService" filename="WebApiDemo.Service\Movie\MovieService.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(WebApiDemo.Domain.Repositories.IMovieRepository,Serilog.ILogger)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="4" branch="False" />
+                <line number="19" hits="4" branch="False" />
+                <line number="20" hits="4" branch="False" />
+                <line number="21" hits="4" branch="False" />
+                <line number="22" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="4" branch="False" />
+            <line number="19" hits="4" branch="False" />
+            <line number="20" hits="4" branch="False" />
+            <line number="21" hits="4" branch="False" />
+            <line number="22" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Service.Movie.MovieService/&lt;GetAllMovies&gt;d__3" filename="WebApiDemo.Service\Movie\MovieService.cs" line-rate="0.44439999999999996" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.44439999999999996" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="36" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="36" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Service.Movie.MovieService/&lt;Search&gt;d__4" filename="WebApiDemo.Service\Movie\MovieService.cs" line-rate="0.44439999999999996" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.44439999999999996" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="50" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="39" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="50" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Service.Movie.MovieService/&lt;Add&gt;d__5" filename="WebApiDemo.Service\Movie\MovieService.cs" line-rate="0.44439999999999996" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.44439999999999996" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="65" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="53" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="65" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="WebApiDemo.Service.Movie.MovieService/&lt;Update&gt;d__6" filename="WebApiDemo.Service\Movie\MovieService.cs" line-rate="0.44439999999999996" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.44439999999999996" branch-rate="1" complexity="1">
+              <lines>
+                <line number="68" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="79" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="68" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="79" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

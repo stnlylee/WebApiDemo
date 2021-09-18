@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiDemo.Api", "WebApiDemo.Api\WebApiDemo.Api.csproj", "{5CEED442-B925-4D4B-81C4-7B71FC90F2C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiDemo.Data", "WebApiDemo.Data\WebApiDemo.Data.csproj", "{F27551A9-ED9E-47C9-B046-7472542A4763}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiDemo.Service", "WebApiDemo.Service\WebApiDemo.Service.csproj", "{FD4BC16D-C97D-428E-ADAE-A3A11443FCBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiDemo.Domain", "WebApiDemo.Domain\WebApiDemo.Domain.csproj", "{D88B4A19-0EC8-4E80-BCE6-29CD5F5AD614}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{5072798B-16B9-4057-94F8-DDC5BA6A8591}"
+	ProjectSection(SolutionItems) = preProject
+		CI.yaml = CI.yaml
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3C00A9B2-060A-464A-9719-52500803628E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiDemo.UnitTests", "Tests\WebApiDemo.UnitTests\WebApiDemo.UnitTests.csproj", "{A1530D15-EE96-4ED3-A8C2-86491D78AD47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiDemo.IntegrationTests", "Tests\WebApiDemo.IntegrationTests\WebApiDemo.IntegrationTests.csproj", "{F85BE15B-2595-465C-81BB-DDF667EE5409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CEED442-B925-4D4B-81C4-7B71FC90F2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEED442-B925-4D4B-81C4-7B71FC90F2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEED442-B925-4D4B-81C4-7B71FC90F2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEED442-B925-4D4B-81C4-7B71FC90F2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27551A9-ED9E-47C9-B046-7472542A4763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27551A9-ED9E-47C9-B046-7472542A4763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27551A9-ED9E-47C9-B046-7472542A4763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27551A9-ED9E-47C9-B046-7472542A4763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4BC16D-C97D-428E-ADAE-A3A11443FCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4BC16D-C97D-428E-ADAE-A3A11443FCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4BC16D-C97D-428E-ADAE-A3A11443FCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4BC16D-C97D-428E-ADAE-A3A11443FCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88B4A19-0EC8-4E80-BCE6-29CD5F5AD614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88B4A19-0EC8-4E80-BCE6-29CD5F5AD614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88B4A19-0EC8-4E80-BCE6-29CD5F5AD614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88B4A19-0EC8-4E80-BCE6-29CD5F5AD614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1530D15-EE96-4ED3-A8C2-86491D78AD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1530D15-EE96-4ED3-A8C2-86491D78AD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1530D15-EE96-4ED3-A8C2-86491D78AD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1530D15-EE96-4ED3-A8C2-86491D78AD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85BE15B-2595-465C-81BB-DDF667EE5409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85BE15B-2595-465C-81BB-DDF667EE5409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85BE15B-2595-465C-81BB-DDF667EE5409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85BE15B-2595-465C-81BB-DDF667EE5409}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1530D15-EE96-4ED3-A8C2-86491D78AD47} = {3C00A9B2-060A-464A-9719-52500803628E}
+		{F85BE15B-2595-465C-81BB-DDF667EE5409} = {3C00A9B2-060A-464A-9719-52500803628E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B6EF675-549A-485A-AC47-D575D0210CC6}
+	EndGlobalSection
+EndGlobal
