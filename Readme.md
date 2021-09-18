@@ -141,7 +141,7 @@ One more thing for settings is it's better to use some secret store service like
 
 ### Unit Tests
 
-Unit tests were done in this demo to cover most of code. According to `coverlet`, the line coverage is 73% and branch coverage (meaning if, switch or all other possible code execution path) is 91.5%.
+Unit tests were done in this demo to cover most of code. According to `coverlet`, the line coverage is 72.9% and branch coverage (meaning if, switch or all other possible code execution path) is 91.5%.
 
 ![unit tests code coverage](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/unit%20tests%20code%20coverage.png)
 
