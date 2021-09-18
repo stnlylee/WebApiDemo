@@ -16,7 +16,7 @@ To run this demo:
 - You can also use **Postman** to hit endpoints
 - Use *Basic Authentication* to access endpoints - user name: **user**, passwords: **123** ;), or it will return *401 Unauthorized* response
 
-![web api running](ReadmeImages\web api running.png)
+![web api running](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/web%20api%20running.png)
 
 
 
@@ -68,7 +68,7 @@ Seems excessive code were implemented for these simple features? Nope, that's es
 
 **Repository Pattern** and **Abstract Factory Pattern** - it's to achieve maximum flexibility for future extension. Eg. we need to add TvShow in the future so we can have a new `ITvShowRepository` and `TvShowRepository`, and they can have their own methods in addition to methods inherited from `IRepository` and `RepositoryBase`
 
-![repository pattern](ReadmeImages\repository pattern.png)
+![repository pattern](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/repository%20pattern.png)
 
 **DTO** and **Request/Response** objects - to achieve flexibility on the View layer. Eg, you need to add one more field for searching but don't want to change model class
 
@@ -85,13 +85,13 @@ In this demo my design is as following:
 - **Serilog** (https://serilog.net/) is a powerful logging library used for server side logging
 - A custom `ErrorHandlingMiddleware` is used to catch all exception at top level. In each layer of this application, it uses try/catch block to catch the error and do proper logging, then rethrow to upper layer, and finally caught by `ErrorHandlingMiddleware`, it will only show limited information to outside, but we keep every bit of details for inside to investigate via logging.
 
-![error handling](ReadmeImages\error handling.png)
+![error handling](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/error%20handling.png)
 
 ### Client side error handling
 
 **FluentValidation** (https://fluentvalidation.net/) is used for client side validation so it will check the incoming data from request to report errors in a 400 BadRequest in response. We can right complex logic for validation using this library. My implementation in this demo is `AddMovieRequestMovieValidator`
 
-![client validation](ReadmeImages\client validation.png)
+![client validation](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/client%20validation.png)
 
 
 
@@ -119,7 +119,7 @@ In this demo, for `/v1/Movies` and `/v1/Movie/Search` endpoints, you will notice
 
 Rate limiting is another important aspect for APIs exposed to outside. The idea is to control access from some source like IP address or  user, then limit their number of accesses with a period. If quota exceeds, it will return *429 Too Many Request* response. It can prevent from *DOS attack* to protect the API. I implemented **AspNetCoreRateLimit** (https://github.com/stefanprodan/AspNetCoreRateLimit) in this demo. For all v1 movie endpoints, I set <u>5 requests with 1 minute</u> for testing purpose. It can be easily changed in config file. Don't be shocked if you saw this, no tolerance to abuse this API :).
 
-![api rate limiting](ReadmeImages\api rate limiting.png)
+![api rate limiting](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/api%20rate%20limiting.png)
 
 
 
@@ -143,11 +143,11 @@ One more thing for settings is it's better to use some secret store service like
 
 Unit tests were done in this demo to cover most of code. According to `coverlet`, the line coverage is 73% and branch coverage (meaning if, switch or all other possible code execution path) is 91.5%.
 
-![unit tests code coverage](ReadmeImages\unit tests code coverage.png)
+![unit tests code coverage](/https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/unit%20tests%20code%20coverage.png)
 
 For more drill-down details, you can see it's still can be improved later. I left that for demo purpose (what an excuse!)
 
-![unit tests code coverage 2](ReadmeImages\unit tests code coverage 2.png)
+![unit tests code coverage 2](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/unit%20tests%20code%20coverage%202.png)
 
 To generate testing coverage report:
 
@@ -181,7 +181,7 @@ It is almost 100% an application is in a CI/CD pipeline in a development house f
 
 Run `docker-compose up`
 
-![docker running](ReadmeImages\docker running.png)
+![docker running](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/docker%20running.png)
 
 Please note the `Dockerfile` is optimized for production use:
 
@@ -191,7 +191,7 @@ Please note the `Dockerfile` is optimized for production use:
 -  `dotnetuser` created for running app but not directly using root user for better security
 -  Patched the image during building process for minimum known vulnerabilities
 
-![dockerfile](ReadmeImages\dockerfile.png)
+![dockerfile](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/dockerfile.png)
 
 Some other efforts needed like writing Shell scripting to integrate application into CI/CD pipeline eg. **Teamcity**, **Gitlab**, **Bitbucket**, **Azure DevOps**. I placed a `CI.yaml` for demo purpose.
 
@@ -268,5 +268,5 @@ Finally, this demo is crafted by my passion and ♥ to technologies. Star it if 
 
 My name is Stanley Li. I am a Senior Developer living in Sydney with my wife and son. I have more than 15 years experiences in .NET, Clouding, enterprise software design and management. I worked in many large companies and governments as a developer or consultant. My LinkedIn profile is https://www.linkedin.com/in/stanley-li-12158414/.
 
-![myself](ReadmeImages\myself.png) 
+![myself](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/myself.png) 
 
