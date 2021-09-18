@@ -191,8 +191,6 @@ Please note the `Dockerfile` is optimized for production use:
 -  `dotnetuser` created for running app but not directly using root user for better security
 -  Patched the image during building process for minimum known vulnerabilities
 
-![dockerfile](https://github.com/stnlylee/WebApiDemo/blob/main/ReadmeImages/dockerfile.png)
-
 Some other efforts needed like writing Shell scripting to integrate application into CI/CD pipeline eg. **Teamcity**, **Gitlab**, **Bitbucket**, **Azure DevOps**. I placed a `CI.yaml` for demo purpose.
 
 Or use **Terraform** to automate this.
