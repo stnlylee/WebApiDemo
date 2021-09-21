@@ -151,6 +151,8 @@ For more drill-down details, you can see it's still can be improved later. I lef
 
 To generate testing coverage report:
 
+You need to install `coverlet.msbuild` from Nuget for testing project
+
 Run this command to generate `coverage.cobertura.xml` in the project folder, it's a common format that other software or SAAS can recognize, eg. if you want to integrate **SonarQube** https://www.sonarqube.org/ to CI/CD pipeline
 
 `dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura`
@@ -161,7 +163,7 @@ To generate a local report you need to install a tool called `reportgenerator`
 
 Then you can use this command to generate pretty HTML report for the xml report
 
-`reportgenerator -reports:"\PathToProject\CommSec.Movie.UnitTests\coverage.cobertura.xml" -targetdir:"coveragereport" -reporttypes:Html`
+`reportgenerator -reports:"\PathToProject\Tests\WebApiDemo.Movie.UnitTests\coverage.cobertura.xml" -targetdir:"coveragereport" -reporttypes:Html`
 
 
 
