@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0-alpine AS publish
 WORKDIR /src
 COPY WebApiDemo.Api/WebApiDemo.Api.csproj ./WebApiDemo.Api/WebApiDemo.Api.csproj
 COPY WebApiDemo.Domain/WebApiDemo.Domain.csproj ./WebApiDemo.Domain/WebApiDemo.Domain.csproj
-COPY WebApiDemo.Services/WebApiDemo.Services.csproj ./WebApiDemo.Services/WebApiDemo.Services.csproj
+COPY WebApiDemo.Service/WebApiDemo.Service.csproj ./WebApiDemo.Service/WebApiDemo.Service.csproj
 COPY WebApiDemo.Data/WebApiDemo.Data.csproj ./WebApiDemo.Data/WebApiDemo.Data.csproj
 
 RUN dotnet restore "./WebApiDemo.Api/WebApiDemo.Api.csproj" --runtime alpine-x64
