@@ -12,7 +12,7 @@ namespace WebApiDemo.Service.Movie
     // eg. if movie release date is before 2000 then it should not be updated
     public class MovieService : IMovieService
     {
-        public readonly IMovieRepository _movieRepository;
+        private readonly IMovieRepository _movieRepository;
         private readonly ILogger _logger;
 
         public MovieService(IMovieRepository movieRepository, ILogger logger)
